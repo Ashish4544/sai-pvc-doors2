@@ -9,8 +9,8 @@ You need a free GitHub account. The app must be hosted once so Chrome can instal
 
 1. Go to github.com, sign in, tap **+** > **New repository**. Name it `sai-pvc-billing`, choose **Public**, tap **Create repository**.
 2. Tap **uploading an existing file**. Upload ALL files and folders from this project
-   (`index.html`, `app.js`, `style.css`, `xlsx.js`, `sw.js`, `manifest.json`, and the `assets` and `icons` folders).
-   The files must sit at the top level, not inside another folder. Tap **Commit changes**.
+   (`index.html`, `app.js`, `assets.js`, `style.css`, `xlsx.js`, `sw.js`, `manifest.json`, `icon-192.png`, `icon-512.png`).
+   There are no folders. All files sit at the top level. Tap **Commit changes**.
    (On a phone, use Chrome's "Desktop site" option, or do this step from a computer.)
 3. Open **Settings > Pages**. Under "Build and deployment", set Source to **Deploy from a branch**,
    Branch **main**, folder **/ (root)**, then **Save**.
@@ -36,4 +36,4 @@ so phones pick up the new files. Saved bills are not touched by updates.
 
 ## Files
 `index.html` page, `style.css` look, `app.js` all logic, `xlsx.js` small Excel writer, `sw.js` offline cache,
-`manifest.json` install info, `assets/` logo and Google Pay QR (cut from your invoice template), `icons/` app icons.
+`manifest.json` install info, `assets.js` logo and Google Pay QR (cut from your invoice template), `icon-*.png` app icons.

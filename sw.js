@@ -1,9 +1,9 @@
 // Bump VERSION when you update any file, so phones fetch the new copy.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'sai-pvc-' + VERSION;
 const FILES = [
-  './', './index.html', './style.css', './app.js', './xlsx.js', './manifest.json',
-  './assets/logo.png', './assets/qr.png', './icons/icon-192.png', './icons/icon-512.png'
+  './', './index.html', './style.css', './app.js', './assets.js', './xlsx.js', './manifest.json',
+  './icon-192.png', './icon-512.png'
 ];
 
 self.addEventListener('install', e => {

@@ -169,7 +169,7 @@ function text(g, t, x, y, o = {}) {
 }
 
 async function renderBillPNG(b) {
-  const [logo, qr] = await Promise.all([loadImage('assets/logo.png'), loadImage('assets/qr.png')]);
+  const [logo, qr] = await Promise.all([loadImage(window.ASSETS.logo), loadImage(window.ASSETS.qr)]);
   if (document.fonts && document.fonts.ready) await document.fonts.ready;
 
   const W = 1080, RH = 69, TOP = 563, n = b.doors.length, shown = Math.max(n, 5);
